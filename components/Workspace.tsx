@@ -95,7 +95,7 @@ export default function Workspace({repos}:{repos:Repo[]}){
         description: "An interactive developer portfolio website showcasing my software projects, technical skills, work experience, and development journey through a modern, responsive interface.",
         language: "Web Development",
         techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "HTML", "CSS"],
-        url: "https://github.com/Satwik934/Satwik934",
+        url: "https://github.com/Satwik934/satwikos2",
       },      
   
   ].map((project) => (
