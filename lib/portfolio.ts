@@ -1,9 +1,49 @@
 // Edit these details with your real project descriptions and links.
+
 export const featuredProjects = [
-  { name: 'GreenLens', description: 'A full-stack AI platform that transforms business financial data into sustainability scores, carbon emission insights, compliance recommendations, and AI-generated ESG reports.', url: 'https://github.com/Satwik934/GreenLens-AI' },
-  { name: 'StockFlow', description: 'A Java-based database application using PostgreSQL and JDBC to manage structured data through SQL operations. Implemented database connectivity, record insertion, and data retrieval, with Maven for dependency management.', url: 'https://github.com/Satwik934/StockFlow' },
-  { name: 'SiteTrack', description: 'A website monitoring tool that helps users track site availability and performance, making it easier to detect downtime and maintain a reliable online presence.', url: 'https://github.com/Satwik934/SiteTrack' },
+  {
+    name: 'GreenLens',
+    description: 'A full-stack AI platform that transforms business financial data into sustainability scores, carbon emission insights, compliance recommendations, and AI-generated ESG reports.',
+    tech: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'FastAPI',
+      'Python',
+      'CSS',
+      'RAG',
+      'GenAI'
+    ],
+    url: 'https://github.com/Satwik934/GreenLens-AI'
+  },
+  {
+    name: 'StockFlow',
+    description: 'A Java-based stock portfolio application featuring authentication, portfolio management, stock transactions, REST APIs, and PostgreSQL database integration.',
+    tech: [
+      'Java',
+      'REST APIs',
+      'PostgreSQL',
+      'JDBC',
+      'Maven',
+      'GCP'
+    ],
+    url: 'https://github.com/Satwik934/StockFlow'
+  },
+  {
+    name: 'SiteTrack',
+    description: 'A full-stack construction management platform for project estimating, scheduling, contractor coordination, material tracking, expense management, and real-time profitability analytics.',
+    tech: [
+      'React',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Docker'
+    ],
+    url: 'https://github.com/Satwik934/SiteTrack'
+  }
 ];
+
 
 
 export const experience = {
